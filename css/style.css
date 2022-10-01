@@ -4,10 +4,52 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
-.main{
-    padding-left: 50%;
+.btn {
+    width: 100%;
 }
-.account {
-    font-size: 35px;
+.blue-back {
+    height: 620px;
+    background-color: blue;
+    clip-path: polygon(60% 0, 100% 0%, 100% 100%, 20% 100%);
+}
+.text {
+    color: white;
+    margin: 280px 0px 50px 380px;
+}
+
+.side-paira {
+    font-size: 11px;
+    margin-left: -35px;
+}
+.sighup {
+    padding: 10px 30px;
+    color: white;
+    border-color: white;
+    font-size: 13px;
+    background-color: transparent;
+    margin: 10px 0px 0px 50px;
+}
+/* sighup-page */
+
+.sighup-page {
+    height: 620px;
+    background-color: blue;
+    clip-path: polygon(0% 0, 85% 0%, 50% 100%, 0% 100%);
+}
+
+
+@media (max-width:768px) {
+    .blue-back{
+        display: none;
+    }
+    .ab{
+        width: 100% !important;
+    }
+
+    .sighup-page {
+        display: none;
+    }
+    .left-text {
+        width: 100% !important;
+    }
 }
