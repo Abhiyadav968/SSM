@@ -16,7 +16,7 @@
 }
 .text {
     color: white;
-    margin: 280px 0px 50px 380px;
+    margin: 250px 0px 50px 380px;
 }
 
 .side-paira {
@@ -37,6 +37,10 @@
     height: 620px;
     background-color: blue;
     clip-path: polygon(0% 0, 95% 0%, 47% 100%, 0% 100%);
+}
+
+.text-white{
+    text-decoration: none;
 }
 
 

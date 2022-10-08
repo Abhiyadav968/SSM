@@ -19,32 +19,36 @@
                 <div class="sign-text mt-5 pt-1 ms-5">
                     <h5 class="pt-5 ms-5 mt-5">Already Have An Account ?</h5>
                     <small class="ps-5">Login to find a batter space for youeself</small><br><br>
-                    <div class="ms-5"><button onclick="save()"  class="sighup ms-5"><a href="./login.html" class="text-white">LOGIN</a></button></div>
+                    <div class="ms-5"><button class="sighup ms-5"><a href="./login.html"class="text-white">LOGIN</a></button></div>
                 </div>
             </div>
             <div class="col-1"></div>
-            <div class="left-text col-3">
-                <h3 class="fw-bold mt-5">Sign up for an Account</h3>
-                <small class="ms-4">Please provied following details to continue</small>
-                <form class="mt-5">
+            <div class="left-text col-4">
+                <h3 class="fw-bold mt-5 ms-4">Sign up for an Account</h3>
+                <small class="ms-5">Please provied following details to continue</small>
+                <div class="mt-5">
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Full Name</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Name">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                            placeholder="Enter your Name">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email">
-                      </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Enter your Email">
                     </div>
-                    <button type="submit" class="btn btn-primary mt-4">Submit</button>
-                  </form>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" onclick="submit()" class="btn btn-primary mt-4" >SIGNUP</button>
+                </div>
             </div>
             <div class="col-1"></div>
         </div>
     </div>
+    <div class="table"></div>
+    <script src="./signup.js"></script>
 </body>
 
 </html>
